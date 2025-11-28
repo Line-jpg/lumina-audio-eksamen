@@ -1,0 +1,63 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap");
+
+html { scroll-behavior: smooth; }
+
+.navbar {
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    background: transparent;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+#logo1 {
+    font-family: var(--logo-font);
+    font-size: 40px;
+    font-weight: 200;
+    color: var(--font-farve);
+    letter-spacing: 4px;
+}
+
+#logo2 {
+    font-family: var(--brødtekst-font);
+    font-size: 24px;
+    color: var(--font-farve);
+    letter-spacing: 13px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-links a {
+    font-family: var(--brødtekst-font);
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--font-farve);
+    transition: 0.3s ease;
+}
+.nav-links a:hover { color: #a08977; }
+
+.cart {
+    width: 24px;
+    height: auto;
+    transition: 0.3s ease;
+}
+.cart:hover { transform: scale(1.1); }
