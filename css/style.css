@@ -39,7 +39,7 @@
     top: 0;
     left: 0;
     z-index: 15;
-    background: linear-gradient(#ffffff 40%,transparent 80%);
+    background: linear-gradient(#ffffff);
 }
 
 .logo {
@@ -88,50 +88,43 @@
 }
 .cart:hover { transform: scale(1.1); }
 
-/* Hero Section */
 
 #hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 90px;
-    min-height: calc(100vh - 90px);
-    box-sizing: border-box;
+    background-image: url('../img/hero.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    height: 130vh;
 }
 
-#heroImg {
-    display: cover;
-    max-width: 80%;
-    height: 100%;
-    margin: 0 auto;
-}
+#heroTekst {
 
-/* Produkt sektion */
-#specs { 
-    background: #ffffff;     
-    height: 100vh;             
-    margin: 0;
 }
 
 #specs {
-    padding: 60px 20px;
+    background: #ffffff;     
+    margin: 0;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
 }
 
 .specs-row {
     display: flex;
-    gap: 300px;
+    gap: 50px;
     justify-content: center;
     align-items: stretch;
-    margin: 100;
+    max-width: 1400px;
 }
 
 .specs-box {
     background: #e9e9e9;
     border-radius: 131px;
-    padding: 28px;
-    box-sizing: border-box;
-    flex: 600px;
-    max-width: 360px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
     text-align: center;
     display: flex;
     flex-direction: column;
