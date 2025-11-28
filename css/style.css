@@ -142,11 +142,28 @@
 #produkt { 
     background: #ffffff;     
     height: 100vh;             
-    margin: 0;
+    margin: 150px;
     display: flex;
     justify-content: space-between; 
     align-items: flex-start; 
     gap: 20px; 
+}
+
+#produkt-kasse {
+    background-color: #b9b9b9;
+    height: 700px;
+    width: 600px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#produktImg {
+    max-width: 100%;
+    display: block;
 }
 
 .hr {
