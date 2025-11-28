@@ -39,7 +39,7 @@
     top: 0;
     left: 0;
     z-index: 15;
-    background: #ffffff;
+    background: linear-gradient(#ffffff 40%,transparent 80%);
 }
 
 .logo {
@@ -89,6 +89,7 @@
 .cart:hover { transform: scale(1.1); }
 
 /* Hero Section */
+
 #hero {
     display: flex;
     justify-content: center;
@@ -99,9 +100,9 @@
 }
 
 #heroImg {
-    display: block;
+    display: absolute;
     max-width: 80%;
-    height: auto;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -137,3 +138,54 @@
     justify-content: center;
     align-items: center;
 }
+
+#produkt { 
+    background: #ffffff;     
+    height: 100vh;             
+    margin: 0;
+}
+
+.hr {
+    width:30%
+}
+
+#app { 
+    background: #ffffff;     
+    height: 100vh;             
+    margin: 0;
+}
+
+footer {
+    background-color: #48559c;
+    padding: 40px 60px;
+    min-height: 30vh;
+    color: rgb(255, 255, 255);
+    font-family: var(--brødtekst-font);
+}
+footer table { width: 100%; 
+  border-collapse: collapse; 
+}
+footer .col { 
+    vertical-align: top;
+    padding-right: 40px; }
+footer h2.logo {
+    font-size: 24px; 
+    letter-spacing: 2px; 
+    margin-bottom: 15px; 
+  }
+footer h3 { 
+    font-size: 14px; 
+    margin-bottom: 10px; 
+    letter-spacing: 1px; }
+footer p { 
+    font-size: 13px; 
+    line-height: 1.8; 
+}
+footer a { 
+    color: black; 
+    text-decoration: none; 
+}
+footer a:hover { 
+    text-decoration: underline;
+ }
+.mail { color: rgb(223, 145, 57); }
