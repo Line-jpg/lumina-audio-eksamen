@@ -143,6 +143,10 @@
     background: #ffffff;     
     height: 100vh;             
     margin: 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 20px; 
 }
 
 .hr {
