@@ -39,7 +39,7 @@
     top: 0;
     left: 0;
     z-index: 15;
-    background: linear-gradient(#ffffff);
+    background: linear-gradient(#ffffff00);
 }
 
 .logo {
@@ -131,6 +131,7 @@
     justify-content: center;
     align-items: center;
 }
+/* Jeg vil gerne tilføje 4 toggle knapper der skal ændre billedet på produktet */
 
 #produkt { 
     background: #ffffff;     
