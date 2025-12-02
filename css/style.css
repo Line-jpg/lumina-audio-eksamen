@@ -39,14 +39,14 @@
     top: 0;
     left: 0;
     z-index: 15;
-    background: linear-gradient(#ffffff00);
+    background: linear-gradient(#ffffff, transparent);
 }
 
 .logo {
     display: flex;
     flex-direction: column;
-    gap: 6px;
-    line-height: 1.1;
+    gap: 0.5px;
+    line-height: 0.8;
     align-items: flex-start;
 }
 
@@ -146,22 +146,26 @@
 }
 
 .specs-box {
-    background: #e9e9e9;
+    background: #412d2d;
+    color: rgb(255, 255, 255);
+    font-family: var(--brødtekst-font);
     border-radius: 131px;
     padding: 50px;
     width: 400px;
     height: 500px;
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 100px;
+    padding-left: 40px;
 }
 /* Jeg vil gerne tilføje 4 toggle knapper der skal ændre billedet på produktet */
 
 #produkt { 
     background: #ffffff;     
-    height: 100vh;             
+    height: 50vh;             
     margin: 150px;
     display: flex;
     justify-content: space-between; 
@@ -185,7 +189,7 @@
 }
 
 footer {
-    background-color: #48559c;
+    background-color: #222222;
     padding: 40px 60px;
     min-height: 30vh;
     color: rgb(255, 255, 255);
@@ -217,4 +221,4 @@ footer a {
 footer a:hover { 
     text-decoration: underline;
  }
-.mail { color: rgb(223, 145, 57); }
+.mail { color: rgb(104, 114, 207); }
