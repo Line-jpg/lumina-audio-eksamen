@@ -255,12 +255,12 @@
 }
 
 .farveBtn1 {
-    background-color: rgb(235, 190, 122);
-    border: 2px solid rgb(75, 18, 18);
+    background-color: rgb(247, 223, 186);
+    border: 2px solid rgb(129, 114, 90);
 }
 .farveBtn2 {
     background-color: rgb(33, 33, 117);
-    border: 2px solid rgb(18, 18, 75);
+    border: 2px solid rgb(38, 61, 190);
 }
 .farveBtn3 {
     background-color: white;
@@ -287,6 +287,14 @@
     margin-bottom: 20px;
 }
 
+.købsKnapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-left: -7px;
+}
+
 #kurven {
     background-color: #412d2d;
     color: rgb(255, 255, 255);
@@ -299,17 +307,15 @@
 }
 
 #hjerte {
-    background-color: transparent;
-    color: #412d2d;
-    border: 2px solid #412d2d;
-    border-radius: 30px;
-    padding: 15px 40px;
-    font-family: var(--brødtekst-font);
-    font-size: 16px;
+    font-size: 40px;
+    background: none;
+    border: none;
+    color: #202020;
 }
 
 #app { 
-    background: #ffffff;     
+    background-image: url(../img/app.png);
+    background-position: cover;  
     height: 100vh;             
     margin: 0;
 }
