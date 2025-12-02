@@ -94,11 +94,37 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80%;
-    height: 130vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
 }
 
 #heroTekst {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    font-family: var(--overskrift-font);
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 4px;
+    align-items: center;
+    margin-right: -400px;
+}
 
+#heroKnap {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-family: var(--brødtekst-font);
+    font-size: 16px;
+    margin-right: -400px;
 }
 
 #specs {
@@ -116,7 +142,7 @@
     gap: 50px;
     justify-content: center;
     align-items: stretch;
-    max-width: 1400px;
+    max-width: 1200px;
 }
 
 .specs-box {
@@ -141,18 +167,6 @@
     justify-content: space-between; 
     align-items: flex-start; 
     gap: 20px; 
-}
-
-#produkt-kasse {
-    background-color: #b9b9b9;
-    height: 700px;
-    width: 600px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
 }
 
 #produktImg {
