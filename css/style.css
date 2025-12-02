@@ -317,15 +317,21 @@
     background-image: url('../img/app.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     height: 100vh;
     margin: 0;
-    background-color: var(--farve1);
 }
 
 #reviews { 
     background: #ffffff;     
     height: 100vh;             
+}
+
+#reviewImg {
+    max-width: 60%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
 }
 
 footer {
