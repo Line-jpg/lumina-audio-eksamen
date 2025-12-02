@@ -194,7 +194,7 @@
 /* Jeg vil gerne tilføje 4 toggle knapper der skal ændre billedet på produktet */
 
 #produkt { 
-    background: #ca4a4a;     
+    background: #ffffff;     
     height: 100vh;             
     margin: 100px;
     display: flex;
@@ -234,8 +234,9 @@
 }
 
 .hr {
-    width:50%;
+    width:70%;
     margin: 30px;
+    margin-left: -2px;
 }
 
 .farveKnapper {
@@ -254,11 +255,11 @@
 }
 
 .farveBtn1 {
-    background-color: red;
+    background-color: rgb(235, 190, 122);
     border: 2px solid rgb(75, 18, 18);
 }
 .farveBtn2 {
-    background-color: blue;
+    background-color: rgb(33, 33, 117);
     border: 2px solid rgb(18, 18, 75);
 }
 .farveBtn3 {
@@ -270,12 +271,41 @@
     border: 2px solid rgb(50, 50, 50);
 }
 
+#farveTekst {
+    font-family: var(--brødtekst-font);
+    font-size: 24px;
+    color: var(--font-farve);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
 #beløb {
     font-family: var(--brødtekst-font);
     font-size: 30px;
     font-weight: 600;
     color: var(--font-farve);
     margin-bottom: 20px;
+}
+
+#kurven {
+    background-color: #412d2d;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-family: var(--brødtekst-font);
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#hjerte {
+    background-color: transparent;
+    color: #412d2d;
+    border: 2px solid #412d2d;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-family: var(--brødtekst-font);
+    font-size: 16px;
 }
 
 #app { 
