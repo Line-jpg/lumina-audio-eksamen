@@ -161,6 +161,28 @@
     padding-top: 100px;
     padding-left: 40px;
 }
+
+#specs1 {
+    background-image: url('../img/specs1.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 110%;
+}
+
+#specs2 {
+    background-image: url('../img/specs2.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100%;
+}
+
+#specs3 {
+    background-image: url('../img/specs3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130%;
+}
+
 /* Jeg vil gerne tilføje 4 toggle knapper der skal ændre billedet på produktet */
 
 #produkt { 
