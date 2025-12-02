@@ -313,11 +313,14 @@
     color: #202020;
 }
 
-#app { 
-    background-image: url(../img/app.png);
-    background-position: cover;  
-    height: 100vh;             
+#app {
+    background-image: url('../img/app.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
     margin: 0;
+    background-color: var(--farve1);
 }
 
 #reviews { 
