@@ -314,17 +314,22 @@
 }
 
 #app {
-    background-image: url('../img/app.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-color: #ffffff;
     height: 100vh;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#appImg {
+    max-width: 80%;
+    height: auto;
+    display: block;
 }
 
 #reviews { 
     background: #ffffff;     
-    height: 70vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -332,9 +337,8 @@
 
 #reviewImg {
     max-width: 60%;
-    display: block;
     height: auto;
-    margin: 0 auto;
+    display: block;
 }
 
 footer {
