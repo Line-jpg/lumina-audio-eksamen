@@ -375,3 +375,15 @@ footer a:hover {
     text-decoration: underline;
  }
 .mail { color: rgb(104, 114, 207); }
+
+/* Onscroll animation fra js opgave */
+section .animate {
+  opacity: 0;
+  filter: blur(5px);
+  transition: 0.5s;
+}
+
+section.show-animate .animate {
+  opacity: 1;
+  filter: blur(0px);
+}
