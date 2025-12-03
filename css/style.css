@@ -137,6 +137,27 @@
     margin-right: -500px;
 }
 
+/* Hover / focus for hero button */
+#heroKnap {
+    transition: background-color 200ms ease, color 200ms ease, transform 120ms ease, box-shadow 200ms ease;
+    cursor: pointer;
+}
+
+#heroKnap:hover {
+    background-color: #dde3ff;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+#heroKnap:active {
+    transform: translateY(-1px) scale(0.995);
+}
+
+#heroKnap:focus-visible {
+    outline: 3px solid rgba(255, 253, 252, 0.25);
+    outline-offset: 4px;
+}
+
 #specs {
     background: #ffffff;     
     margin: 0;
@@ -334,6 +355,27 @@
     font-family: var(--brødtekst-font);
     font-size: 16px;
     margin-right: 10px;
+}
+
+/* Hover / focus for add-to-cart button */
+#kurven {
+    transition: background-color 180ms ease, transform 120ms ease, box-shadow 180ms ease;
+    cursor: pointer;
+}
+
+#kurven:hover {
+    background-color: #59423f;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(65,45,45,0.18);
+}
+
+#kurven:active {
+    transform: translateY(0) scale(0.995);
+}
+
+#kurven:focus-visible {
+    outline: 3px solid rgba(65,45,45,0.18);
+    outline-offset: 4px;
 }
 
 #hjerte {
