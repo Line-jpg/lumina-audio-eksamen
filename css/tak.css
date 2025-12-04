@@ -19,10 +19,8 @@
   --overskrift-font: 'Krona One', sans-serif;
   --brødtekst-font: 'Inria Sans', sans-serif;
 }
- 
- 
- 
- body {
+
+body {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -34,6 +32,7 @@
     h1 {
       color: var(--font-farve);
       margin-bottom: 10px;
+      font-family: var(--brødtekst-font);
     }
     a {
       display: inline-block;
