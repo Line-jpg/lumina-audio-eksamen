@@ -16,6 +16,8 @@ window.addEventListener("scroll", () => {
   });
 });
 
+// Billederne bliver desværre kæmpe store. 
+
 const beigeKnap = document.querySelector('.farveBtn1');
 const beigeImg = new Image();
 beigeImg.src = 'img/produktImg.png';
