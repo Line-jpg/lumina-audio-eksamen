@@ -39,7 +39,7 @@
     top: 0;
     left: 0;
     z-index: 15;
-    background: linear-gradient(#ffffff 30%, transparent);
+    background-color: #ffffff;
 }
 
 .logo {
