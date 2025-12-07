@@ -130,6 +130,8 @@
     font-family: var(--brødtekst-font);
     font-size: 16px;
     margin-right: -500px;
+    display: inline-block;
+    text-decoration: none;
 }
 
 
@@ -350,6 +352,8 @@
     font-family: var(--brødtekst-font);
     font-size: 16px;
     margin-right: 10px;
+    display: inline-block; 
+    text-decoration: none;
 }
 
 #kurven {
