@@ -18,54 +18,20 @@ window.addEventListener("scroll", () => {
 
 // Billederne bliver desværre kæmpe store. 
 
-const beigeKnap = document.querySelector('.farveBtn1');
-const beigeImg = new Image();
-beigeImg.src = 'img/produktImg.png';
-  
-if (beigeKnap) {
-  beigeKnap.addEventListener('click', function () {
-    const produktImg = document.getElementById('produktImg');
-    if (produktImg) {
-      produktImg.src = 'img/produktImg.png';
-    }
-  });
-}
+const produktImg = document.getElementById("produktImg");
 
-const navyKnap = document.querySelector('.farveBtn2');
-const navyImage = new Image();
-navyImage.src = 'img/navySpeaker.png';
+document.querySelector(".farveBtn1")?.addEventListener("click", () => {
+  produktImg.src = "img/produktImg.png";
+});
 
-if (navyKnap) {
-  navyKnap.addEventListener('click', function () {
-    const produktImg = document.getElementById('produktImg');
-    if (produktImg) {
-      produktImg.src = 'img/navySpeaker.png';
-    }
-  });
-}
+document.querySelector(".farveBtn2")?.addEventListener("click", () => {
+  produktImg.src = "img/navySpeaker.png";
+});
 
-const hvidKnap = document.querySelector('.farveBtn3');
-const hvidImage = new Image();
-hvidImage.src = 'img/hvidSpeaker.png';
+document.querySelector(".farveBtn3")?.addEventListener("click", () => {
+  produktImg.src = "img/hvidSpeaker.png";
+});
 
-if (hvidKnap) {
-  hvidKnap.addEventListener('click', function () {
-    const produktImg = document.getElementById('produktImg');
-    if (produktImg) {
-      produktImg.src = 'img/hvidSpeaker.png';
-    }
-  });
-}
-
-const sortKnap = document.querySelector('.farveBtn4');
-const sortImage = new Image();
-sortImage.src = 'img/sortSpeaker.png';
-
-if (sortKnap) {
-  sortKnap.addEventListener('click', function () {
-    const produktImg = document.getElementById('produktImg');
-    if (produktImg) {
-      produktImg.src = 'img/sortSpeaker.png';
-    }
-  });
-}
+document.querySelector(".farveBtn4")?.addEventListener("click", () => {
+  produktImg.src = "img/sortSpeaker.png";
+});
