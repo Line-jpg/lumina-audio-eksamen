@@ -26,7 +26,7 @@ body {
       align-items: center;
       height: 100vh;
       background: var(--farve1);
-      font-family: var(--brødtekst-font) sans-serif;
+      font-family: var(--brødtekst-font);
       text-align: center;
     }
     h1 {
@@ -38,6 +38,7 @@ body {
       display: inline-block;
       margin-top: 20px;
       padding: 12px 25px;
+      font-family: var(--brødtekst-font);
       background: var(--font-farve);
       color: #fff;
       border-radius: 30px;
