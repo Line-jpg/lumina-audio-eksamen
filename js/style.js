@@ -1,5 +1,6 @@
 "use strict";
 
+// Min scroll animation der tilføjer klassen "show-animate" til sektioner. 
 const sections = document.querySelectorAll("section");
 
 window.addEventListener("scroll", () => {
@@ -8,6 +9,8 @@ window.addEventListener("scroll", () => {
     const offset = sec.offsetTop - window.innerHeight / 1.5; 
     const height = sec.offsetHeight;
 
+
+// If/Else statement der tilføjer/fjerner klassen "show-animate" baseret på scroll position.
     if (top >= offset && top < offset + height) {
       sec.classList.add("show-animate");
     } else {
@@ -16,8 +19,7 @@ window.addEventListener("scroll", () => {
   });
 });
 
-// Billederne bliver desværre kæmpe store. 
-
+// Skifter billedet af produktImg ved klik på farveBtns. 
 const produktImg = document.getElementById("produktImg");
 
 document.querySelector(".farveBtn1")?.addEventListener("click", () => {

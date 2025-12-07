@@ -10,13 +10,8 @@
     }
 }
 
-/* Skal lige tænke over farverne - men her er strukturen*/ 
 :root {
-  --farve1: #FEF5EF;
-  --farve2: #E1D3C2;
-  --farve3: #F0E4D9;
   --font-farve: #514237;
-
   --logo-font: 'Koulen', sans-serif;
   --overskrift-font: 'Krona One', sans-serif;
   --brødtekst-font: 'Inria Sans', sans-serif;
@@ -137,7 +132,7 @@
     margin-right: -500px;
 }
 
-/* Hover / focus for hero button */
+
 #heroKnap {
     transition: background-color 200ms ease, color 200ms ease, transform 120ms ease, box-shadow 200ms ease;
     cursor: pointer;
@@ -241,8 +236,6 @@
     background-position: center;
     background-size: 130%;
 }
-
-/* Jeg vil gerne tilføje 4 toggle knapper der skal ændre billedet på produktet */
 
 #produkt { 
     background: #ffffff;     
@@ -359,7 +352,6 @@
     margin-right: 10px;
 }
 
-/* Hover / focus for add-to-cart button */
 #kurven {
     transition: background-color 180ms ease, transform 120ms ease, box-shadow 180ms ease;
     cursor: pointer;
