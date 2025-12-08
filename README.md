@@ -5,6 +5,7 @@ __I denne opgave har jeg valgt, at optimere design og gjort min landingpage inte
     * Lavet .showanimate til min js.
     * tilføjet hover effekter på mine specs kasser, for at gøre den hvide teksten mere tydlig på billede baggrund. 
     * Hover effekter på mine knapper.
+    * Ændret font inde på tak.css
 * **Gjort det nye design funktionelt ved hjælp af JavaScript.**
     * Tilføjet on-scroll effect fra tidligere opgave så den passer ind i mit design. 
     * Jeg har brugt arrow functions på mine farveknapper til at ændre produktImg i HTML'en til det billede, der passer til den valgte farve.
