@@ -1,4 +1,5 @@
-# LUMINA AUDIO eksamen
+# LUMINA AUDIO eksamen 
+## December 2025 - _Line Svendsen_ 
 __I denne opgave har jeg valgt, at optimere design og gjort min landingpage interagerbar.__
 ## Kode optimeringer:
 * **Ændre på min css fil, for at tilpasse nyt design.**
@@ -11,4 +12,3 @@ __I denne opgave har jeg valgt, at optimere design og gjort min landingpage inte
     * Jeg har brugt arrow functions på mine farveknapper til at ændre produktImg i HTML'en til det billede, der passer til den valgte farve.
 * **Validering af HTML**
 
-_Line Svendsen_
