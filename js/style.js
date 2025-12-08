@@ -22,18 +22,18 @@ window.addEventListener("scroll", () => {
 // Skifter billedet af produktImg ved klik på farveBtns. 
 const produktImg = document.getElementById("produktImg");
 
-document.querySelector(".farveBtn1")?.addEventListener("click", () => {
+document.querySelector(".farveBtn1").addEventListener("click", () => {
   produktImg.src = "img/produktImg.png";
 });
 
-document.querySelector(".farveBtn2")?.addEventListener("click", () => {
+document.querySelector(".farveBtn2").addEventListener("click", () => {
   produktImg.src = "img/navySpeaker.png";
 });
 
-document.querySelector(".farveBtn3")?.addEventListener("click", () => {
+document.querySelector(".farveBtn3").addEventListener("click", () => {
   produktImg.src = "img/hvidSpeaker.png";
 });
 
-document.querySelector(".farveBtn4")?.addEventListener("click", () => {
+document.querySelector(".farveBtn4").addEventListener("click", () => {
   produktImg.src = "img/sortSpeaker.png";
 });
